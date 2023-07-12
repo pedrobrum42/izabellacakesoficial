@@ -1,0 +1,222 @@
+html, body{ 
+    height: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #848484 , rgb(173, 171, 171), white, white, white);
+    
+}
+
+
+.navbar-brand {
+font-size: 1.8em;
+letter-spacing: 8px;
+}
+.fundo-menu {
+    background: rgba(0, 0, 0, 0.6 );
+}
+.fundo-menu a {
+    color: white;
+}
+
+.fundo-menu a:hover {
+    color: rgb(208, 112, 175);
+}
+
+.dropdown-menu{
+    
+    background: url(imagens/confete.png) top;
+}
+
+.dropdown-menu a{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.dropdown-menu a:hover{
+    background-color: black;
+    color: rgb(249, 3, 155);
+}
+
+.navbar-toggler{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+.img-modelos {
+    display: inline;
+    border-radius: 20px;
+}
+
+
+
+.cabecalho h2 {
+    color: #19070B;
+    font-size: 1.5em;   
+    padding-left: 15px;
+    padding-right: 5px;
+    display: inline;
+    
+}
+
+.cabecalho a{
+    border-radius: 20px;
+    display: inline;
+}
+
+.cabecalho a:hover{
+    color: rgb(186, 172, 22);
+}
+
+
+
+.cardapio{
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#propaganda ul li h5 {
+    font-size: 1.6em;
+    color: #610B4B;
+    border-top: 1px solid #610B4B;   
+
+}
+
+
+
+#propaganda ul li p{
+    font-size: 1em;
+    color: #2E2E2E;
+    padding-top: 10px;
+}
+#propaganda h3{
+    font-size: 2em;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    color: rgb(255, 6, 159);
+    letter-spacing: 1px;
+}
+
+.fundo-nav{
+    background-image: linear-gradient(to right, white, white, rgb(173, 25, 109));
+}
+
+.fundo-nav a{
+    color: black;
+}
+
+.valores h4{
+    font-size: 1.8em;
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+    
+
+}
+
+.valores p{
+    
+    padding-bottom: 35px;
+    
+}
+
+ol li {
+    padding: 5px;
+}
+
+.list-group-item {
+    color: white;
+    background-image: linear-gradient(rgb(124, 64, 103), rgb(157, 65, 123), rgb(209, 143, 182));
+}
+
+.alternativo{
+    background: rgb(209, 143, 182);
+}
+
+.alternativo2{
+    background-image: linear-gradient(rgb(209, 143, 182), rgb(209, 143, 182), rgb(76, 12, 54));
+    
+}
+
+.orcamento a{
+ 
+    border-radius: 20px;
+}
+
+
+.imagens-redondas img{
+  
+    border-radius: 400px;    
+}
+
+.redes ul li a{
+  padding: 25px;
+}
+
+nav  li a {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+letter-spacing: 0.2em;
+font-weight: bold;
+transition: 0.4s;
+
+}
+
+
+nav  li a:hover {
+
+color: white;
+}
+
+footer{
+    position: relative;
+    color: #fff;
+    background-color: black;
+   
+}
+
+footer ul {
+    list-style: none;
+   
+    }
+    
+    footer ul li {
+    
+    margin: 0 5px;
+    padding: 6px; 
+    
+    }
+    footer ul li a{
+        color: #BDBDBD;
+        transition: 0.4s;
+    }
+    footer ul li a:hover{
+        color: rgb(249, 3, 155);
+    }
+
+
+    // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px)
+    
+ 
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)
+    
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
